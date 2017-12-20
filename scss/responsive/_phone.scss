@@ -1,0 +1,54 @@
+@media only screen and (max-width: $breakpoint-phone) {
+  .row {
+    padding: 1%;
+  }
+
+  .row h2 {
+    font-size: 2em;
+  }
+
+  nav {
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .btn {
+    //display: bloc;
+    margin: 0 auto;
+  }
+
+  .m-center {
+    text-align: center;
+  }
+
+  .nav-row {
+    padding: 0;
+  }
+
+  .brand {
+    width: 90px;
+    margin: 0;
+  }
+
+  .main-nav {
+    width: 290px;
+
+  }
+
+  .main-nav a {
+    font-size: .8em;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+
+  header {
+    text-align: center;
+    .hero-m {
+      font-size: 2.5em;
+    }
+  }
+
+}

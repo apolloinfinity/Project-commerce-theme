@@ -1,0 +1,64 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  @include font(raleway);
+}
+
+p {
+  @include font(merri);
+}
+
+a {
+  color: $link-light;
+  @include transition(color 500ms);
+  &:hover {color: #77d2a7}
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 60px 0;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+.row h2 {
+  color: $dark-header;
+  font-weight: 300;
+  font-size: 2.32em;
+}
+
+.header-row {
+  h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  border-bottom: 1px solid lighten($gray, 30%);
+  p {
+    color: $gray;
+    font-size: 1.24em;
+    @include font(raleway);
+    margin-top: 5px;
+  }
+}
+
+.offset {
+  background-color: $light-gray;
+}
+
+.center {
+  text-align: center;
+}

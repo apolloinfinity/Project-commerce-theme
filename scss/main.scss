@@ -1,0 +1,25 @@
+//Base
+@import 'modules/_color';
+@import 'modules/_functions';
+@import 'modules/_mixins';
+@import 'modules/_variables';
+
+
+@import 'vendor/_normalize';
+@import 'vendor/_grid';
+
+@import 'base/_base';
+
+@import 'components/_buttons';
+@import 'components/_thumbnails';
+
+@import 'layout/_header';
+@import 'layout/_navigation';
+@import 'layout/_sidebar';
+@import 'layout/_form';
+@import 'layout/_footer';
+
+@import 'pages/_home';
+@import 'pages/_contact';
+
+@import 'responsive/_phone';

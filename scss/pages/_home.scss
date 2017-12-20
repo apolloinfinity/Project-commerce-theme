@@ -1,0 +1,79 @@
+/*---------------------------------*/
+/*Quote Section*/
+/*---------------------------------*/
+
+.quote-row {
+  background-color: #f2f2f2;
+}
+
+.custom-row {
+  position: relative;
+}
+.quote {
+  margin: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.quote:before {
+  content: "\201C";
+  font-size: 3.8em;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+}
+
+
+/*---------------------------------*/
+/*Products*/
+/*---------------------------------*/
+.products {
+  margin-top: 30px;
+}
+
+.products h3 {
+  color: #279bd8;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $gray;
+}
+
+/*---------------------------------*/
+/*News*/
+/*---------------------------------*/
+
+.news h3 {
+  color: #a53900;
+}
+
+
+
+/*---------------------------------*/
+/*FAQ*/
+/*---------------------------------*/
+
+ .faq a {
+   color: $link-light;
+   font-size: 1.3em;
+   @include text-deco(link);
+ }
+/*---------------------------------*/
+/*Form*/
+/*---------------------------------*/
+ .form-container {
+   width: 45%;
+ }
+
+/*---------------------------------*/
+/*Footer*/
+/*---------------------------------*/
+ .connect h4 {
+   color: #a53900;
+   display: block;
+ }
+
+ .connect a {
+   display: inline-block;
+   @include text-deco(link);
+   margin: 20px 20px;
+ }

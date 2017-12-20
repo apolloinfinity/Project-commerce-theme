@@ -1,0 +1,13 @@
+.btn {
+  background-color: $pro-dark;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 20px;
+  @include text-deco(link);
+  @include transition(background-color 500ms, color 500ms)
+}
+
+.btn:hover {
+  background-color: $institute;
+  color: black
+}
